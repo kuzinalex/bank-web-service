@@ -40,7 +40,7 @@ class ListBankAccountComponent extends Component {
     render() {
         return (
             <div>
-                <h2 className="text-center"> Bank Account List</h2>
+                <h2 className="text-center"> Bank Accounts List</h2>
                 <div className="row">
                     <table className="table table-striped table-bordered">
                         <thead>
@@ -69,7 +69,7 @@ class ListBankAccountComponent extends Component {
                     <Link to={`/${this.state.clientId}/add-bankAccount`}>Add bank account</Link>
                 </div>
                 <div className="background" align="center">
-                    <h2>HELLO BANK ACCOUNTS</h2>
+                    {/*<h2>HELLO BANK ACCOUNTS</h2>*/}
                 </div>
             </div>
         );

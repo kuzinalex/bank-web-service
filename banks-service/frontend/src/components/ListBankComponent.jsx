@@ -37,7 +37,7 @@ class ListBankComponent extends Component {
     render() {
         return (
             <div>
-                <h2 className="text-center"> Bank List</h2>
+                <h2 className="text-center"> Banks List</h2>
                 <div className="row">
                     <button className="btn-btn-primary" onClick={this.clickAddBankHandler.bind(this)}>Add bank</button>
                 </div>
@@ -71,7 +71,7 @@ class ListBankComponent extends Component {
 
                 </div>
                 <div className="background" align="center">
-                    <h2>HELLO MY FRIENDS</h2>
+                    {/*<h2>HELLO MY FRIENDS</h2>*/}
                 </div>
             </div>
         );

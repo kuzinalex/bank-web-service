@@ -39,7 +39,7 @@ class ListWorkerComponent extends Component {
     render() {
         return (
             <div>
-                <h2 className="text-center"> Worker List</h2>
+                <h2 className="text-center"> Workers List</h2>
                 <div className="row">
                     <table className="table table-striped table-bordered">
                         <thead>
@@ -72,7 +72,7 @@ class ListWorkerComponent extends Component {
                     <Link to={`/${this.state.bankId}/add-worker`}>Add worker</Link>
                 </div>
                 <div className="background" align="center">
-                    <h2>HELLO BANK WORKERS</h2>
+                    {/*<h2>HELLO BANK WORKERS</h2>*/}
                 </div>
             </div>
         );

@@ -37,7 +37,7 @@ class ListClientComponent extends Component {
     render() {
         return (
             <div>
-                <h2 className="text-center"> Client List</h2>
+                <h2 className="text-center"> Clients List</h2>
                 <div className="row">
                     <table className="table table-striped table-bordered">
                         <thead>
@@ -72,7 +72,7 @@ class ListClientComponent extends Component {
                     <Link to={`/${this.state.bankId}/add-client`}>Add client</Link>
                 </div>
                 <div className="background" align="center">
-                    <h2>HELLO MY CLIENTS</h2>
+                    {/*<h2>HELLO MY CLIENTS</h2>*/}
                 </div>
             </div>
         );
