@@ -11,7 +11,11 @@ It is a RESTful web service with **Spring Boot** back-end + **React js** front-e
 
 # How to use
 
+## Run back-end
+
 1. Clone repository.
 2. Build and run project.
-3.  `cd banks-service/frontend `
-4.   ` npm start`
+
+## Run front-end
+1.  `cd banks-service/frontend `
+2.   ` npm start`
